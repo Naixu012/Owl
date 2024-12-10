@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: url('04e88282ac36582e41a768e3076142b0.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+    z-index: 2;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    visibility: hidden;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.question {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2E3532;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.img-position {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.img {
+    width: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Yes-button,
+.No-button {
+    color: white;
+    background-color: #2E3532;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    transition: transform 0.2s, opacity 0.2s, background-color 0.3s, box-shadow 0.3s ease;
+    outline: none;
+}
+
+.Yes-button:hover,
+.No-button:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    background-color: #45a049;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Yes-button:active,
+.No-button:active {
+    transform: scale(1.05);
+    background-color: #3e4a3d;
+}
+
+.notification {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2E3532;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
