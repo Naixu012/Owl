@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const phrases = [
         "Ờm thì...",
         "Có lẽ cú cũng biết rồi",
-        "Đáng nhẽ phải nói ra từ lâu rồi cơ",
+        "Đáng nhẽ phải nói trực tiếp thì okela hơn",
         "Nhma ngại quá vẫn chưa dám nói 😓",
         "Thì giờ là câu hỏi cuối cùng nè!",
         "T thích cú !!!!",
