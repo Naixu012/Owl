@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Nhma ngại quá vẫn chưa dám nói 😓",
         "Thì giờ là câu hỏi cuối cùng nè!",
         "T thích cú !!!!",
-        "Cú cho phép t làm người yêu cú nhé?"
+        "Cú cho phép t làm bạn trai cú nhé?"
     ];
 
     const questionBox = document.querySelector(".question-box");
